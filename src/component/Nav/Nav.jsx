@@ -9,12 +9,12 @@ const Nav = () => {
     <>
     <NavTop/>
     <nav className="bg-gray-300 p-4 ">
-      <div className="container mx-auto md:h-[100px] lg:h-[100px] flex justify-between items-center">
+      <div className="container mx-auto md:h-[80px] lg:h-[80px] flex justify-between items-center">
         <div className="text-white text-2xl font-bold">
             
         </div>
         <div className="hidden md:flex space-x-24">
-          <Link to="/home" className="text-zinc-950 font-medium hover:text-amber-400">HOME</Link>
+          <Link to="/" className="text-zinc-950 font-medium hover:text-amber-400">HOME</Link>
           <Link to="/about" className="text-zinc-950 font-medium hover:text-amber-400">ABOUT</Link>
           <Link to="/services" className="text-zinc-950 font-medium hover:text-amber-400">SERVICES</Link>
           <Link to="/gallery" className="text-zinc-950 font-medium hover:text-amber-400">GALLERY</Link>
@@ -30,7 +30,7 @@ const Nav = () => {
       </div>
       {isOpen && (
         <div className="md:hidden">
-          <Link to="/home" className="block text-white hover:text-gray-300 p-2">Home</Link>
+          <Link to="/" className="block text-white hover:text-gray-300 p-2">Home</Link>
           <Link to="/about" className="block text-white hover:text-gray-300 p-2">About</Link>
           <Link to="/services" className="block text-white hover:text-gray-300 p-2">Services</Link>
           <Link to="/gallery" className="block text-white hover:text-gray-300 p-2">Gallery</Link>
