@@ -87,7 +87,12 @@ const HomeTourPackages = () => {
   };
 
   return (
-    <div className="container mx-auto py-8">
+    <div className="container mx-auto py-28">
+    <div className='flex items-center mb-4 px-4 md:px-2'>
+    <div className="w-1 h-10 bg-amber-400 mr-4"></div>
+    <h1 className='text-3xl text-zinc-600 text-left font-medium'>
+    Some of our <span className='text-amber-500'>Tour Packages</span></h1>
+    </div>
       <Carousel responsive={responsive} infinite={true}>
         {tourData.map((tour, index) => (
           <div key={index} className="p-4">
@@ -96,12 +101,12 @@ const HomeTourPackages = () => {
                 <img src={tour.image} alt={tour.title} className="w-[300px] h-36 object-cover" />
               </div>
               <div className="p-4">
-                <h3 className="text-xl text-left mx-5 font-semibold">{tour.title}</h3>
+                <h3 className="text-xl text-left text-gray-600 mx-5 font-semibold">{tour.title}</h3>
                 <div className="flex items-center text-left mt-2 py-4 h-12 ">
                   <FaMapMarkerAlt className="mr-2 text-orange-500" />
                   <span className='text-sm'>{tour.locations}</span>
                 </div>
-                <div className="mt-4 text-left">
+                <div className="mt-2 text-left">
                   <button className="bg-amber-500 mx-7 text-white py-2 px-4  hover:bg-zinc-950 transition ease-in-out duration-300">
                     Contact Us
                   </button>
