@@ -8,18 +8,49 @@ const Nav = () => {
   return (
     <>
     <NavTop/>
-    <nav className="bg-gray-300 p-4 ">
+    <nav className="bg-gray-50 p-4 ">
       <div className="container mx-auto md:h-[80px] lg:h-[80px] flex justify-between items-center">
         <div className="text-white text-2xl font-bold">
             
         </div>
         <div className="hidden md:flex space-x-24">
-          <Link to="/" className="text-zinc-950 font-medium hover:text-amber-400">HOME</Link>
-          <Link to="/about" className="text-zinc-950 font-medium hover:text-amber-400">ABOUT</Link>
-          <Link to="/services" className="text-zinc-950 font-medium hover:text-amber-400">SERVICES</Link>
-          <Link to="/gallery" className="text-zinc-950 font-medium hover:text-amber-400">GALLERY</Link>
-          <Link to="/contact" className="text-zinc-950 font-medium  hover:text-amber-400">CONTACT US</Link>
-        </div>
+  <Link 
+    to="/" 
+    className="text-zinc-950 font-medium relative hover:text-amber-400 group"
+  >
+    HOME
+    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-amber-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+  </Link>
+  <Link 
+    to="/about" 
+    className="text-zinc-950 font-medium relative hover:text-amber-400 group"
+  >
+    ABOUT
+    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-amber-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+  </Link>
+  <Link 
+    to="/services" 
+    className="text-zinc-950 font-medium relative hover:text-amber-400 group"
+  >
+    SERVICES
+    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-amber-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+  </Link>
+  <Link 
+    to="/gallery" 
+    className="text-zinc-950 font-medium relative hover:text-amber-400 group"
+  >
+    GALLERY
+    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-amber-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+  </Link>
+  <Link 
+    to="/contact" 
+    className="text-zinc-950 font-medium relative hover:text-amber-400 group"
+  >
+    CONTACT US
+    <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-amber-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+  </Link>
+</div>
+
         <div className="md:hidden flex items-center">
           <button onClick={() => setIsOpen(!isOpen)} className="text-white focus:outline-none">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
