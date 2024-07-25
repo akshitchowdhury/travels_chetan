@@ -1,8 +1,11 @@
 import React from "react";
 import homeAbout from "../../assets/homeMid.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 const HomeAbout = () => {
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto py-12 "  data-aos="fade-up">
       <div className="flex flex-col md:flex-row gap-x-4 items-center">
         <div className="w-full md:w-1/2 p-4">
           <img
