@@ -3,7 +3,7 @@ import homeAbout from "../../assets/homeMid.png";
 const HomeAbout = () => {
   return (
     <div className="container mx-auto p-4">
-      <div className="flex flex-col md:flex-row items-center">
+      <div className="flex flex-col md:flex-row gap-x-4 items-center">
         <div className="w-full md:w-1/2 p-4">
           <img
             src={homeAbout}
@@ -14,7 +14,7 @@ const HomeAbout = () => {
         </div>
         <div className="w-full md:w-1/2 p-4 text-justify md:text-left">
         <div className="flex items-center mb-4">
-  <div className="w-2 h-10 bg-amber-400 mr-4"></div>
+  <div className="w-1 h-10 bg-amber-400 mr-4"></div>
   <h2 className="text-3xl font-semibold">About Us</h2>
 </div>
           <p className="text-gray-700 ">

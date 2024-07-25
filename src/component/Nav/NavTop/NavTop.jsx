@@ -13,7 +13,7 @@ const NavTop = () => {
             <li className="flex items-center">
               <FontAwesomeIcon icon={faEnvelope} className='px-2'/>
               <a href="mailto:admissions@hillsideacademy.in" className="hover:text-gray-400">
-                chetantravels@gmail.com
+                enjoyholidays.com
               </a>
             </li>
             <li className="flex items-center mt-2 sm:mt-0">
