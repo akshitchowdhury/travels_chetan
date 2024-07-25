@@ -4,6 +4,7 @@ import HomeHero from './HomeHero/HomeHero'
 import HomeServices from './HomeServices/HomeServices'
 import HomeCount from './HomeCount/HomeCount'
 import HomeTourPackages from './HomeTourPackages/HomeTourPackages'
+import HomeLast from './HomeLast/HomeLast'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <HomeServices/>
       <HomeTourPackages/>
       <HomeCount/>
+      <HomeLast/>
       
     </div>
   )

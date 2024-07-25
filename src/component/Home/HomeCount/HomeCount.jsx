@@ -61,7 +61,7 @@ const CountUpAnimation = ({ initialValue, targetValue, text }) => {
 
 function HomeCount() {
   return (
-    <div className="container -my-10 mx-auto py-24 px-4" data-aos="fade-up">
+    <div className="container  mx-auto py-36 px-4" data-aos="fade-up">
       
       <div className="flex flex-col md:flex-row justify-around items-center space-y-8 md:space-y-0">
         <div className="flex flex-col items-center">

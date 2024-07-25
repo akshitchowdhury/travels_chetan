@@ -12,7 +12,9 @@ import Image7 from '../../../assets/shillong.jpg';
 import Image8 from '../../../assets/tamil nadu.jpg';
 import Image9 from '../../../assets/ahmedabad.jpg';
 import Image10 from '../../../assets/lonavala.jpg';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 const HomeTourPackages = () => {
   const tourData = [
     {
@@ -87,7 +89,7 @@ const HomeTourPackages = () => {
   };
 
   return (
-    <div className="container mx-auto py-28">
+    <div className="container mx-auto my-12 " data-aos="fade-up">
     <div className='flex items-center mb-4 px-4 md:px-2'>
     <div className="w-1 h-10 bg-amber-400 mr-4"></div>
     <h1 className='text-3xl text-zinc-600 text-left font-medium'>
