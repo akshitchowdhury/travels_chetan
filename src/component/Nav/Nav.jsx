@@ -1,22 +1,24 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import NavTop from './NavTop/NavTop';
-
+import logo from "../../assets/logo.jpeg"
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
     <NavTop/>
-    <nav className="bg-gray-800 p-4">
-      <div className="container mx-auto flex justify-between items-center">
-        <div className="text-white text-2xl font-bold">Logo</div>
-        <div className="hidden md:flex space-x-4">
-          <Link to="/home" className="text-white hover:text-gray-300">Home</Link>
-          <Link to="/about" className="text-white hover:text-gray-300">About</Link>
-          <Link to="/services" className="text-white hover:text-gray-300">Services</Link>
-          <Link to="/gallery" className="text-white hover:text-gray-300">Gallery</Link>
-          <Link to="/contact" className="text-white hover:text-gray-300">Contact Us</Link>
+    <nav className="bg-gray-300 p-4 ">
+      <div className="container mx-auto md:h-[100px] lg:h-[100px] flex justify-between items-center">
+        <div className="text-white text-2xl font-bold">
+            
+        </div>
+        <div className="hidden md:flex space-x-24">
+          <Link to="/home" className="text-zinc-950 font-medium hover:text-amber-400">HOME</Link>
+          <Link to="/about" className="text-zinc-950 font-medium hover:text-amber-400">ABOUT</Link>
+          <Link to="/services" className="text-zinc-950 font-medium hover:text-amber-400">SERVICES</Link>
+          <Link to="/gallery" className="text-zinc-950 font-medium hover:text-amber-400">GALLERY</Link>
+          <Link to="/contact" className="text-zinc-950 font-medium  hover:text-amber-400">CONTACT US</Link>
         </div>
         <div className="md:hidden flex items-center">
           <button onClick={() => setIsOpen(!isOpen)} className="text-white focus:outline-none">
