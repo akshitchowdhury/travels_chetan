@@ -65,15 +65,15 @@ function HomeCount() {
       
       <div className="flex flex-col md:flex-row justify-around items-center space-y-8 md:space-y-0">
         <div className="flex flex-col items-center">
-          <CountUpAnimation initialValue={0} targetValue={150}  text="Projects Delivered" />
+          <CountUpAnimation initialValue={0} targetValue={150}  text="Tours Delivered" />
         </div>
         <div className="w-px h-24 bg-orange-500 hidden md:block"></div>
         <div className="flex flex-col items-center">
-          <CountUpAnimation initialValue={0} targetValue={400} text="Managed Services Customers" />
+          <CountUpAnimation initialValue={0} targetValue={400} text="Satisfied Customers" />
         </div>
         <div className="w-px h-24 bg-orange-500 hidden md:block"></div>
         <div className="flex flex-col items-center">
-          <CountUpAnimation initialValue={0} targetValue={5} text="Years of Expereince" />
+          <CountUpAnimation initialValue={0} targetValue={7} text="Years of Expereince" />
         </div>
       </div>
     </div>

@@ -12,6 +12,7 @@ import Services from './component/Services/Services';
 import About from './component/About/About';
 import Home from './component/Home/Home';
 import Nav from './component/Nav/Nav';
+import Footer from './component/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -24,7 +25,7 @@ function App() {
   <Route path="/gallery" element={<Gallery/>} />
   <Route path="/contact" element={<Contact/>} />
 </Routes>
-
+<Footer/>
     </Router>
     </div>
   );

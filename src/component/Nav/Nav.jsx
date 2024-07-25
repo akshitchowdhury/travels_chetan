@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import NavTop from './NavTop/NavTop';
-import logo from "../../assets/logo.jpeg"
+import logo from "../../assets/logo-removebg-preview.png"
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -10,8 +10,8 @@ const Nav = () => {
     <NavTop/>
     <nav className="bg-gray-50 p-4 ">
       <div className="container mx-auto md:h-[80px] lg:h-[80px] flex justify-between items-center">
-        <div className="text-white text-2xl font-bold">
-            
+        <div className="font-bold">
+            <img src={logo} className='w-[150px] h-[120px]'/>
         </div>
         <div className="hidden md:flex space-x-24">
   <Link 
