@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMobileAlt, faEnvelope, faBook, faBookOpen, faScroll, faSchoolFlag } from '@fortawesome/free-solid-svg-icons';
 
 import React from 'react'
+import { faFacebook, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const NavTop = () => {
   return (
@@ -28,9 +29,14 @@ const NavTop = () => {
           <div className="topbar-right mt-2 sm:mt-0">
             <ul className="flex md:items-center text-white">
               <li className="flex items-center">
-                <FontAwesomeIcon icon={faMobileAlt} className='px-4'/>
-                <span>&nbsp; FOR ADMISSION? +91-98459 56633, +91-97428 03553</span>
-              </li>
+                <FontAwesomeIcon icon={faInstagram} className='px-2'/>
+                </li>
+              <li className="flex items-center">
+                <FontAwesomeIcon icon={faFacebook} className='px-2'/>
+                </li>
+              <li className="flex items-center">
+                <FontAwesomeIcon icon={faWhatsapp} className='px-2'/>
+                </li>
             </ul>
           </div>
           {/* Topbar Right */}
