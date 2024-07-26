@@ -207,7 +207,7 @@ const Footer = () => {
 
       {/* Sub Footer */}
       <div className="sub-footer bg-gray-900 text-white text-center py-4">
-        <p className="text-sm">© Copyright 2023.</p>
+        <p className="text-sm">Powered by INNOMATRICS TECH.</p>
       </div>
       {/* Sub Footer */}
     </div>
