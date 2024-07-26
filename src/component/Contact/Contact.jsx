@@ -27,11 +27,7 @@ const Contact = () => {
           {/* Top div with background image */}
           <div
             className="rtop w-full h-48 md:h-72 bg-cover bg-center rounded-md bg-sky-700 bg-opacity-50"
-            style={{
-              backgroundBlendMode: "multiply",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}
+            
           ></div>
 
           {/* Bottom div as an address card */}
