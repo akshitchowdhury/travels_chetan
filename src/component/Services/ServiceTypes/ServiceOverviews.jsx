@@ -20,11 +20,11 @@ const ServiceOverviews = () => {
   };
 
   return (
-    <div className="container mx-auto py-16 px-4">
-      <p className="text-zinc-800 font-semibold text-2xl md:text-5xl">
+    <div className=" bg-indigo-100 mx-auto py-16 px-4">
+      <p className="text-indigo-950 font-semibold text-2xl md:text-5xl">
         Service Overviews
       </p>
-      <hr className="text-zinc-800 w-[70%] my-7" />
+      <div className="w-[200px] lg:w-[400px] h-1 bg-indigo-950 mt-2 mb-4"></div>
 
       {/* Large and Medium Screens Layout */}
       <div className="hidden lg:flex flex-col lg:flex-row justify-between items-center lg:items-start space-y-8 lg:space-y-0 lg:space-x-8">
@@ -59,11 +59,11 @@ const ServiceOverviews = () => {
           </Link>
         </div>
 
-        <div className="w-full lg:w-1/3 flex justify-center lg:justify-end">
+        <div className="w-full lg:w-1/3 flex justify-center lg:justify-center">
           <img
             src={hoveredItem !== null ? data[hoveredItem].image : indus1}
             alt="Service"
-            className="w-full h-auto max-w-sm rounded-md shadow-md"
+            className="w-[200px]  h-[200px] max-w-sm rounded-md shadow-md"
           />
         </div>
       </div>
