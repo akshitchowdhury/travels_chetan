@@ -8,7 +8,7 @@ const Nav = () => {
   return (
     <>
     <NavTop/>
-    <nav className="bg-gray-50 p-4 ">
+    <nav className="bg-gray-950 lg:bg-gray-50 p-4 ">
       <div className="container mx-auto md:h-[80px] lg:h-[80px] flex justify-between items-center">
         <div className="font-bold">
             <img src={logo} className='w-[150px] h-[120px]'/>
