@@ -100,47 +100,42 @@ const Footer = () => {
                 <h3 className="text-lg font-semibold mb-4 mx-14">QUICK LINKS</h3>
                 <ul className="text-left px-20">
                   <li className="relative">
-                    <a
-                      href="javascript:void(0);"
+                    <Link to={"/"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li className="relative">
-                    <a
-                      href="javascript:void(0);"
+                    <Link to={"/about"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       About Us
-                    </a>
+                    </Link>
                   </li>
                   <li className="relative">
-                    <a
-                      href="javascript:void(0);"
+                    <Link to={"/services"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Services
-                    </a>
+                    </Link>
                   </li>
                   <li className="relative">
-                    <a
-                      href="javascript:void(0);"
+                    <Link to={"/gallery"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Gallery
-                    </a>
+                    </Link>
                   </li>
                   
 
                   
                   <li className="relative">
-                    <a
-                      href="javascript:void(0);"
+                    <Link to={"/contact"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Contact Us
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
