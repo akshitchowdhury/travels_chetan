@@ -1,10 +1,12 @@
 import React from 'react'
 import HomeServices from '../../Home/HomeServices/HomeServices'
+import ServiceOverviews from './ServiceOverviews'
 
 const ServiceTypes = () => {
   return (
     <div>
-      <HomeServices/>
+      {/* <HomeServices/> */}
+      <ServiceOverviews/>
     </div>
   )
 }
