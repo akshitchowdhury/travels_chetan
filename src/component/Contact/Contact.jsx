@@ -27,7 +27,11 @@ const Contact = () => {
           {/* Top div with background image */}
           <div
             className="rtop w-full h-48 md:h-72 bg-cover bg-center rounded-md bg-sky-700 bg-opacity-50"
-            
+            style={{
+              backgroundBlendMode: "multiply",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           ></div>
 
           {/* Bottom div as an address card */}
@@ -76,7 +80,7 @@ const Contact = () => {
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.651519988216!2d77.6640818!3d12.993401!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1137e2350dff%3A0x5572544ba88cb88!2sChethan%20Theatre!5e0!3m2!1sen!2sin!4v1721997412375!5m2!1sen!2sin"
           width="600"
           height="450"
-          style="border:0;"
+          style="border:0"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
