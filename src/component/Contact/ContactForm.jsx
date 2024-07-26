@@ -90,7 +90,7 @@ const ContactForm = () => {
         <div>
           <button
             type="submit"
-            className="w-[200px] py-3 px-4 bg-orange-600 text-white font-medium rounded-md hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition duration-300 ease-in-out"
+            className="w-[160px] h-[60px] py-3 px-4 bg-amber-500 text-white font-medium rounded-md hover:bg-zinc-950 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition duration-300 ease-in-out"
           >
             Contact Us
           </button>
