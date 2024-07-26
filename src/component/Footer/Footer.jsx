@@ -170,8 +170,7 @@ const Footer = () => {
                       icon={faMobileAlt}
                       className="text-amber-400 text-xl px-4"
                     />{" "}
-                    080 655 87775, 080 655 87776, 098 459 56633, 097 428 03553,
-                    099 005 42900
+                    +91-98459 56633
                   </li>
                   {/* <hr className="border-gray-700 mb-4" />
                   <li className="flex items-start mb-4">
