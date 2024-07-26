@@ -1,5 +1,5 @@
 import React from 'react';
-import tourGuidesImage from '../../../assets/tourPackages.webp'; // Replace with actual image path
+import tourGuidesImage from '../../../assets/guide.jpg'; // Replace with actual image path
 import { FaChalkboardTeacher, FaMapSigns } from 'react-icons/fa';
 
 const TourGuides = () => {

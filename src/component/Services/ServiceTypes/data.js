@@ -35,7 +35,7 @@ const data = [
     desc: "Crafting bespoke tour packages that cater to your interests and preferences, we take care of all the details, providing a seamless travel experience from start to finish, and creating memories that will last a lifetime.",
     image: tourPackages,
     icon: faSuitcaseRolling,
-    link: "/transport"
+    link: "/packages"
   },
 ];
 

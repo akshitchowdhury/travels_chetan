@@ -16,6 +16,7 @@ import Contact from './component/Contact/Contact';
 import TransportAndFleet from './component/Services/Categories/TransportAndFleet';
 import AccommodationAndStay from './component/Services/Categories/AccomodationAndStay';
 import TourGuides from './component/Services/Categories/TourGuides';
+import TourPackages from './component/Services/Categories/TourPackages';
 function App() {
   return (
     <div className="App overflow-clip">
@@ -30,6 +31,7 @@ function App() {
   <Route path="/transport" element={<TransportAndFleet/>} />
   <Route path="/accomodation" element={<AccommodationAndStay/>} />
   <Route path="/tour" element={<TourGuides/>} />
+  <Route path="/packages" element={<TourPackages/>} />
 </Routes>
 <Footer/>
     </Router>
