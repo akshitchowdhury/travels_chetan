@@ -39,11 +39,11 @@ const Contact = () => {
     </p>
     <p className="mb-2">
       <FontAwesomeIcon icon={faPhone} className="mr-2 text-orange-500" />
-      <span>Phone: +91 9448539183 / +91 9845511324</span>
+      <span>Phone: +91-98459 56633</span>
     </p>
     <p>
       <FontAwesomeIcon icon={faEnvelope} className="mr-2 text-orange-500" />
-      <span>Email: seraramsolanki@gmail.com</span>
+      <span>Email: enjoyholidays.com</span>
     </p>
   </div>
       </div>
