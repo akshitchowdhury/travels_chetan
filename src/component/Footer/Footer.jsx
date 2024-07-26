@@ -97,7 +97,7 @@ const Footer = () => {
             {/* Column */}
             <div className="w-full sm:w-1/3 my-12 lg:my-0 md:my-0mb-12 ">
               <div className="footer-c-widget h-white list-widget text-white">
-                <h3 className="text-lg font-semibold mb-4">QUICK LINKS</h3>
+                <h3 className="text-lg font-semibold mb-4 mx-14">QUICK LINKS</h3>
                 <ul className="text-left px-20">
                   <li className="relative">
                     <a
@@ -163,7 +163,7 @@ const Footer = () => {
                   </li>
                   <hr className="border-gray-700 mb-4" />
                   <h5 className="text-md text-center md:text-left font-semibold mb-2">
-                    ADMISSION
+                    PHONE NO
                   </h5>
                   <li className="flex items-start mb-4">
                     <FontAwesomeIcon
