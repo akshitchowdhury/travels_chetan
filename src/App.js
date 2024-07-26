@@ -7,12 +7,12 @@ import {
   useLocation,
 } from "react-router-dom";
 import Gallery from './component/Gallery/Gallery';
-import Contact from './component/Contact/Contact';
 import Services from './component/Services/Services';
 import About from './component/About/About';
 import Home from './component/Home/Home';
 import Nav from './component/Nav/Nav';
 import Footer from './component/Footer/Footer';
+import Contact from './component/Contact/Contact';
 function App() {
   return (
     <div className="App">

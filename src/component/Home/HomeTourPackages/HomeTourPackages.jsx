@@ -110,7 +110,7 @@ const HomeTourPackages = () => {
                 </div>
                 <div className="mt-2 text-left">
                   <button className="bg-amber-500 mx-7 text-white py-2 px-4  hover:bg-zinc-950 transition ease-in-out duration-300">
-                    Contact Us
+                    Book Now
                   </button>
                 </div>
               </div>

@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+// import './HomeCount.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -54,16 +55,17 @@ const CountUpAnimation = ({ initialValue, targetValue, text }) => {
   return (
     <div ref={ref} className="flex flex-col items-center ">
       <span className="text-4xl md:text-6xl font-bold text-amber-400">{count >= targetValue ? `${targetValue}+` : count}</span>
-      <span className="text-lg md:text-xl text-zinc-800 mt-2">{text}</span>
+      <span className="text-lg md:text-xl text-zinc-200 mt-2">{text}</span>
     </div>
   );
 };
 
 function HomeCount() {
   return (
-    <div className="container  mx-auto py-36 px-4" data-aos="fade-up">
+    // data-aos="fade-up"
+    <div className="count  w-[90%] mx-3 my-6 lg:mx-16 md:mx-16 lg:my-12 rounded-md bg-gray-950 px-12  py-16 " >
       
-      <div className="flex flex-col md:flex-row justify-around items-center space-y-8 md:space-y-0">
+      <div className="flex flex-col  md:flex-row justify-around items-center space-y-8 md:space-y-0">
         <div className="flex flex-col items-center">
           <CountUpAnimation initialValue={0} targetValue={150}  text="Tours Delivered" />
         </div>

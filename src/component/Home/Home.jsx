@@ -14,7 +14,7 @@ const Home = () => {
       <HomeServices/>
       <HomeTourPackages/>
       <HomeCount/>
-      <HomeLast/>
+      {/* <HomeLast/> */}
       
     </div>
   )

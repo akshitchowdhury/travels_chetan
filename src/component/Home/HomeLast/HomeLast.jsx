@@ -9,8 +9,10 @@ const HomeLast = () => {
   ];
 
   return (
-    <div className="bg-amber-400 w-[300px] md:w-[700px] text-gray-500 p-4  rounded-lg absolute left-[2%] md:left-[23%]
-    -my-[60%] md:-my-[5%]">
+    <div className="bg-amber-400 w-[300px] md:w-[700px] text-gray-500
+     p-4 
+     rounded-lg absolute left-[10%] md:left-[23%]
+    -my-[30%] md:-my-[5%]">
       <div className="flex flex-wrap justify-center">
         {states.map((state, index) => (
           <React.Fragment key={index}>
