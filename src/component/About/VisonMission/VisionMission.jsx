@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGlobeAmericas, FaBullseye, FaPlane, FaSuitcase, FaMoneyBillWave, FaHandsHelping, FaMedal, FaUsers, FaStar, FaHeart } from 'react-icons/fa';
-import visMis from "../../../assets/hero3.jpg";
+import visMis from "../../../assets/visMis.jpg";
+import visMis2 from "../../../assets/visMis2.jpg";
 
 const VisionMission = () => {
   return (
@@ -36,15 +37,15 @@ const VisionMission = () => {
 </div>
 
       {/* Our Vision Section */}
-      <div className="vision bg-indigo-50">
+      <div className="vision lg: md:bg-indigo-50">
   <div className="flex flex-col lg:flex-row-reverse 
   items-center lg:items-start space-y-6 lg:space-y-0 lg:space-x-8">
     <img 
-      src={visMis} 
+      src={visMis2} 
       alt="Our Vision" 
       className="w-full lg:p-10 lg:w-1/2 lg:rounded-none object-cover lg:object-fill lg:max-h-[500px]" 
     />
-    <div className="flex flex-col items-center lg:py-12 space-y-4 lg:w-1/2">
+    <div className="flex flex-col items-center lg:py-12 space-y-10 lg:w-1/2">
       <h2 className="text-3xl font-bold text-indigo-600 flex items-center space-x-2">
         <FaGlobeAmericas className="text-4xl" />
         <span>Our Vision</span>
