@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import data from "./data"; // Importing the local data file
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import indus1 from "../../../assets/logo-removebg-preview.png"
+import { faArrowAltCircleLeft } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons/faArrowRight";
 const ServiceOverviews = () => {
   const [hoveredItem, setHoveredItem] = useState(null);
   const [openIndex, setOpenIndex] = useState(null);
@@ -31,7 +33,9 @@ const ServiceOverviews = () => {
         <div className="w-full lg:w-1/3">
           <ul className="text-lg md:text-xl text-zinc-800 space-y-4">
             {data.map((item, index) => (
-              <div key={index} className="flex flex-row gap-x-8 cursor-pointer hover:text-orange-500 transition ease-in-out duration-200 hover:scale-105">
+             <>
+              <div key={index} className="flex flex-row gap-x-8 
+              cursor-pointer hover:text-orange-500 transition ease-in-out duration-200 hover:scale-105">
                 <FontAwesomeIcon icon={item.icon} className="text-sky-600" />
                 <li
                   className="text-lg font-semibold"
@@ -40,7 +44,14 @@ const ServiceOverviews = () => {
                 >
                   {item.title}
                 </li>
+                <Link to={item.link}>
+            <button className="bg-orange-600
+             text-white font-semibold  px-4 hover:bg-orange-700 transition duration-300">
+              <FontAwesomeIcon icon={faArrowRight} className="text-white text-2xl"/>
+            </button>
+          </Link>
               </div>
+              </>
             ))}
           </ul>
         </div>
@@ -52,11 +63,7 @@ const ServiceOverviews = () => {
           <p className="text-base md:text-lg text-zinc-800 mb-6">
             {hoveredItem !== null ? data[hoveredItem].desc : "Hover over a service to see more information."}
           </p>
-          <Link to="/contact">
-            <button className="bg-orange-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-orange-700 transition duration-300">
-              Learn More
-            </button>
-          </Link>
+          
         </div>
 
         <div className="w-full lg:w-1/3 flex justify-center lg:justify-center">
