@@ -154,8 +154,7 @@ const Footer = () => {
                       icon={faMapMarkerAlt}
                       className="text-amber-400 text-xl px-4"
                     />{" "}
-                    53/3, Nagavarapalya Main Rd, Rajana Colony, C V Raman Nagar,
-                    Bengaluru, Karnataka 560093
+                    4, N S Iyengar St, 4th Block, Kumara Park West, Seshadripuram, Bengaluru, Karnataka 560020
                   </li>
                   <hr className="border-gray-700 mb-4" />
                   <h5 className="text-md text-center md:text-left font-semibold mb-2">

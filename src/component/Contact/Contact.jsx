@@ -27,15 +27,15 @@ const Contact = () => {
     <h2 className="text-lg font-semibold mb-2">Address</h2>
     <p className="mb-2">
       <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2 text-orange-500" />
-      <span>53/3, Nagavarapalya Main Rd</span>
+      <span>4, N S Iyengar St,</span>
     </p>
     <p className="mb-2">
       <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2 text-white" />
-      <span> Rajana Colony, C V Raman Nagar</span>
+      <span>  4th Block, Kumara Park West, Seshadripuram,</span>
     </p>
     <p className="mb-2">
       <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2 text-white" />
-      <span>Bengaluru, Karnataka 560093</span>
+      <span> Bengaluru, Karnataka 560020</span>
     </p>
     <p className="mb-2">
       <FontAwesomeIcon icon={faPhone} className="mr-2 text-orange-500" />
